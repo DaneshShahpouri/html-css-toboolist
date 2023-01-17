@@ -18,6 +18,13 @@ h1{
     line-height: 60px;
     vertical-align: top;
 }
+
+h2{
+    display: inline-block;
+    font-size: 1.7em;
+    text-decoration: inherit;
+    color: black;
+}
 /* /TITOLI */
 
 /* NAVBAR */
@@ -37,6 +44,7 @@ h1{
 .main_content{
     width: 70vw;
     height: 80vh;
+    max-width: 1100px;
 
     margin: 50px auto;
 
@@ -65,5 +73,94 @@ h1{
 }
 
 /* /ADDER */
+
+/* FEATURES */
+ .features{
+    padding:40px
+ }
+
+    /* LINE CONTAINER */
+    .features .line_container{
+        /* background-color: aqua;  */
+        /* DA CANCELLARE */
+        padding: 5px;
+        text-decoration: none;
+    }
+    
+    .features .line_container .arrow{
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        text-align: center;
+        transform: rotate(314deg);
+        line-height: 33px;
+        text-decoration: inherit;
+        color: black;
+    }
+    /* /LINE CONTAINER */
+
+    /* MENU */
+    .features .menu{
+        /* background-color: blue; */
+         /* DA CANCELLARE */
+        padding: 5px;
+    }
+
+    .features .menu .row_menu{
+        padding:5px 11px;
+    }
+
+        /* CHECK/UNCHECK */
+        .features .menu .row_menu .check{
+            display: inline-block;
+        }
+
+        .features .menu .row_menu .check::before{
+            content: '✔';
+            padding: 0px 3px;
+            line-height: 20px;
+            color: rgb(99, 192, 170);
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            border: 1px solid;
+            border: 1px solid rgb(99, 192, 170);
+        }
+        
+        .features .menu .row_menu .uncheck::before{
+            content: '𐄂';
+            padding: 0px 3px;
+            line-height: 20px;
+            color: rgb(232, 67, 59);
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            border: 1px solid;
+            border: 1px solid rgb(232, 67, 59);
+        }
+        
+        /* TEXT */
+        .features .menu .row_menu .text{
+            padding-right: 8px;
+        }
+
+        /* PROPERTY */
+        .features .menu .row_menu .property{
+            display: inline-block;
+            padding: 6px 10px;
+            border-radius: 15px;
+            color: white;
+            font-size: 0.7em;
+        }
+
+        .features .menu .row_menu .editorial{
+            background-color: rgb(69, 171, 234);
+        }
+
+    /* /MENU */
+    
+    
+/* /FEATURES */
+
 
  /* /MAIN CONTENT  */
