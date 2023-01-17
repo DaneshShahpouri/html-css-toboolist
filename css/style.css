@@ -2,4 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+body{
+    background-color: rgb(246, 248, 249);
+}
+
+/* TITOLI */
+h1{
+    display: inline-block;
+
+    font-size: 2.2em;
+
+    line-height: 60px;
+    vertical-align: top;
+}
+/* /TITOLI */
+
+/* NAVBAR */
+.nav_bar{
+   padding: 10px 20px;
+   background-color: white;
+}
+
+.nav_bar #logo{
+    width: 60px;
+}
+/* /NAVBAR */
