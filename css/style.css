@@ -92,7 +92,6 @@ h2{
         height: 20px;
         width: 20px;
         text-align: center;
-        transform: rotate(314deg);
         line-height: 33px;
         text-decoration: inherit;
         color: black;
@@ -104,6 +103,7 @@ h2{
         /* background-color: blue; */
          /* DA CANCELLARE */
         padding: 5px;
+        display: none;
     }
 
     .features .menu .row_menu{
@@ -172,9 +172,11 @@ h2{
             background-color: rgb(191, 211, 79);
         }
     /* /MENU */
-    
-    
 /* /FEATURES */
-
-
  /* /MAIN CONTENT  */
+
+ /* HOVER */
+ body .features .line_container:hover + .hide, .hide:hover{
+    display: block !important;
+ }
+ 
