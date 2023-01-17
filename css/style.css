@@ -76,7 +76,7 @@ h2{
 
 /* FEATURES */
  .features{
-    padding:40px
+    padding:15px
  }
 
     /* LINE CONTAINER */
@@ -111,8 +111,9 @@ h2{
     }
 
         /* CHECK/UNCHECK */
-        .features .menu .row_menu .check{
+        .features .menu .row_menu .check, .uncheck{
             display: inline-block;
+
         }
 
         .features .menu .row_menu .check::before{
@@ -120,22 +121,16 @@ h2{
             padding: 0px 3px;
             line-height: 20px;
             color: rgb(99, 192, 170);
-            height: 20px;
-            width: 20px;
             border-radius: 50%;
-            border: 1px solid;
             border: 1px solid rgb(99, 192, 170);
         }
         
         .features .menu .row_menu .uncheck::before{
             content: '𐄂';
-            padding: 0px 3px;
+            padding: 0px 5px;
             line-height: 20px;
             color: rgb(232, 67, 59);
-            height: 20px;
-            width: 20px;
             border-radius: 50%;
-            border: 1px solid;
             border: 1px solid rgb(232, 67, 59);
         }
         
@@ -157,6 +152,25 @@ h2{
             background-color: rgb(69, 171, 234);
         }
 
+        .features .menu .row_menu .q_goals{
+            background-color: rgb(156, 114, 228);
+        }
+
+        .features .menu .row_menu .rescruiting{
+            background-color: rgb(100, 192, 169);
+        }
+
+        .features .menu .row_menu .mobile{
+            background-color: rgb(242, 158, 51);
+        }
+
+        .features .menu .row_menu .website{
+            background-color: rgb(216, 99, 161);
+        }
+
+        .features .menu .row_menu .sales{
+            background-color: rgb(191, 211, 79);
+        }
     /* /MENU */
     
     
