@@ -43,8 +43,8 @@ h2{
 
 .main_content{
     width: 70vw;
-    height: 80vh;
     max-width: 1100px;
+    padding-bottom: 40px;
 
     margin: 50px auto;
 
@@ -81,10 +81,22 @@ h2{
 
     /* LINE CONTAINER */
     .features .line_container{
-        /* background-color: aqua;  */
-        /* DA CANCELLARE */
         padding: 5px;
         text-decoration: none;
+        cursor: pointer;
+        color: black;
+    }
+
+    .features .line_container strong{
+        font-size: 1.8em;
+    }
+
+    .features .line_container:hover, .feature .line_container h2:hover{
+        color: rgb(87, 87, 87);
+    }
+
+    .features .line_container:active{
+      font-size: 0.95em;
     }
     
     .features .line_container .arrow{
@@ -100,10 +112,7 @@ h2{
 
     /* MENU */
     .features .menu{
-        /* background-color: blue; */
-         /* DA CANCELLARE */
         padding: 5px;
-        display: none;
     }
 
     .features .menu .row_menu{
@@ -111,10 +120,10 @@ h2{
     }
 
         /* CHECK/UNCHECK */
-        .features .menu .row_menu .check, .uncheck{
-            display: inline-block;
-
+        .features .menu .row_menu li{
+            list-style-type: none;
         }
+
 
         .features .menu .row_menu .check::before{
             content: '✔';
@@ -137,6 +146,8 @@ h2{
         /* TEXT */
         .features .menu .row_menu .text{
             padding-right: 8px;
+            display: inline-block;
+            margin-bottom: 15px;
         }
 
         /* PROPERTY */
@@ -174,9 +185,3 @@ h2{
     /* /MENU */
 /* /FEATURES */
  /* /MAIN CONTENT  */
-
- /* HOVER */
- body .features .line_container:hover + .hide, .hide:hover{
-    display: block !important;
- }
- 
